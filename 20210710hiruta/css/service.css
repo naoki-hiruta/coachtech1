@@ -1,0 +1,153 @@
+.header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  height: 70px;
+  padding: 0 30px;
+  background-color: #fff;
+  position: sticky;
+  left: 0;
+  top: 0;
+  z-index: 1;
+}
+.header-ttl {
+  font-size: 24px;
+  width: 80px;
+}
+.header-nav {
+  display: block;
+}
+.header-nav-list {
+  display: flex;
+  font-weight: bold;
+}
+nav ul {
+  list-style: none;
+}
+.header-nav-item:not(:last-child) {
+  margin-right: 30px;
+}
+li {
+  display: list-item;
+}
+a {
+  text-decoration: none;
+  color: inherit;
+  transition: 0.3s;
+}
+.menu {
+  display: none;
+}
+.drawer-nav {
+  display: none;
+}
+
+.page-mv {
+  height: 250px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: #fff;
+  background: url(../img/mv.png) center / cover;
+}
+.ttl {
+  font-size: 30px;
+  font-weight: bold;
+}
+/* h1 {
+  display: block;
+  font-size: 2em;
+  margin-block-start: 0.67em;
+  margin-block-end: 0.67em;
+  margin-inline-start: 0px;
+  margin-inline-end: 0px;
+  font-weight: bold;
+} */
+
+.ptb-m {
+  padding: 80px 0;
+}
+.wrap {
+  width: 1080px;
+  margin: 0 auto;
+}
+* {
+  box-sizing: border-box;
+}
+div {
+  display: block;
+}
+.service-item {
+  padding: 20px 0;
+  border-top: 1px solid #222;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+}
+.service-item-img {
+  width: 290px;
+}
+.service-item-detail {
+  width: calc(100% - 330px);
+}
+img {
+  width: 100%;
+  height: auto;
+}
+.service-item-ttl {
+  font-size: 24px;
+  font-weight: bold;
+}
+p {
+  display: block;
+  margin-block-start: 1em;
+  margin-block-end: 1em;
+  margin-inline-start: 0px;
+  margin-inline-end: 0px;
+}
+
+.bottom-contact {
+  background-color: #f5f6f9;
+  text-align: center;
+}
+.bottom-contact-txt {
+  margin-top: 10px;
+}
+.bottom-contact-btn {
+  margin: 40px auto 0;
+}
+.btn {
+  display: block;
+  width: 300px;
+  text-align: center;
+  font-weight: bold;
+  padding: 10px;
+  background-color: #cd0224;
+  color: #fff;
+}
+
+.footer {
+  padding: 20px 0;
+  color: #fff;
+  background-color: #222;
+}
+.footer-inner {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  align-items: center;
+  font-size: 12px;
+}
+.footer-nav-list {
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.footer-nav-item::after {
+  content: "|";
+  display: inline-block;
+  padding: 0 10px;
+}
+footer-nav-item {
+  display: flex;
+}
